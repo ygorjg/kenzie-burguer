@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap");
+
+header {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  height: 139px;
+  background: #f5f5f5;
+}
+
+.logo {
+  width: 158.94px;
+  height: 36.83px;
+}
+
+.inputSearchContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 350px;
+  height: 55px;
+  background: #ffffff;
+  border: 2px solid #e0e0e0;
+  border-radius: 8px;
+}
+
+.inputSearch {
+  border: none;
+  background: transparent;
+  width: 220px;
+  height: 45px;
+}
+
+.inputSearch::placeholder {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #e0e0e0;
+}
+
+.inputSearch:focus {
+  outline: none;
+}
+
+.btnInputSearch {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #ffffff;
+  width: 90px;
+  height: 37px;
+  background: #27ae60;
+  border: 2px solid #27ae60;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.btnInputSearch:hover {
+  border: #93d7af;
+  background: #93d7af;
+}
+
+@media screen and (min-width: 820px) {
+  header {
+    flex-direction: row;
+    justify-content: space-around;
+    height: 80px;
+  }
+}
+
+@media screen and (min-width: 1320px) {
+  header {
+    gap: 650px;
+  }
+}

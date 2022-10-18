@@ -1,0 +1,26 @@
+.productsList {
+  display: flex;
+  flex-direction: row;
+  overflow-y: scroll;
+}
+
+@media screen and (min-width: 935px) {
+  .productsList {
+    flex-wrap: wrap;
+    width: 930px;
+    overflow-y: auto;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .productsList {
+    margin-left: 42px;
+    width: 950px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .productsList {
+    margin-left: 58px;
+  }
+}
